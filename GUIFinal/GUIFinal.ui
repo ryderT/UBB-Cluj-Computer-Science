@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GUIFinalClass</class>
+ <widget class="QMainWindow" name="GUIFinalClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>710</width>
+    <height>799</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GUIFinal</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>351</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Movie list</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="movieWidget"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>550</y>
+      <width>271</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="titleLabel">
+       <property name="text">
+        <string>Title:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="genreLabel">
+       <property name="text">
+        <string>Genre:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="genreLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="yearLabel">
+       <property name="text">
+        <string>Year:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="yearLineEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="likesLabel">
+       <property name="text">
+        <string>Likes:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="likesLineEdit"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="trailerLabel">
+       <property name="text">
+        <string>Trailer:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="trailerLineEdit"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="titleLineEdit"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>693</y>
+      <width>239</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="addButton">
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="removeButton">
+       <property name="text">
+        <string>Remove</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="updateButton">
+       <property name="text">
+        <string>Update</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>379</x>
+      <y>-1</y>
+      <width>331</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Watch list:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="watchlistWidget"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>560</y>
+      <width>329</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="4" column="1">
+      <widget class="QPushButton" name="playlistShowButton">
+       <property name="text">
+        <string>Show Watch list</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLineEdit" name="deleteWLineEdit"/>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="nextButton">
+       <property name="text">
+        <string>Next</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="playlistDeleteButton">
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="filterButton">
+       <property name="text">
+        <string>Filter</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="filterLineEdit"/>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="playlistAddButton">
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="playButton">
+       <property name="text">
+        <string>Play</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>Like</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>699</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="htmlButton">
+       <property name="text">
+        <string>HTML</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="csvButton">
+       <property name="text">
+        <string>CSV</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>710</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="GUIFinal.qrc"/>
+ </resources>
+ <connections/>
+</ui>
