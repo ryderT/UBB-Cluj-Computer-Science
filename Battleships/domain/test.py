@@ -8,5 +8,5 @@ class Test(unittest.TestCase):
     def tearDown(self):
         unittest.TestCase.tearDown()
     def testdat(self):
-        self.asssertEqual(self.b.getPC(),[[0]*8, [0]*8 ,[0]*8 ,[0]*8 ,[0]*8 ,[0]*8 ,[0]*8 ,[0]*8])
+        self.assertEqual(self.b.getPC(),[[0]*8, [0]*8 ,[0]*8 ,[0]*8 ,[0]*8 ,[0]*8 ,[0]*8 ,[0]*8])
         self.assertEqual(self.b.getPlayer(),[[0]*8, [0]*8 ,[0]*8 ,[0]*8 ,[0]*8 ,[0]*8 ,[0]*8 ,[0]*8])
