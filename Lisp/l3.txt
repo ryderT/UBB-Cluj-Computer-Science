@@ -1,0 +1,7 @@
+;lista tuturor atomilor ce apar pe orice nivel
+
+atoms(l1...ln)=
+	-list l, l-atom
+	-mapcan atoms(l1..ln), otherwise
+
+

@@ -1,0 +1,13 @@
+; 10. Return the level of a node X in a tree of type (2). The level of the root element is 0.
+
+(defun nodeLevel (tree level X)
+    (cond
+        ((null tree) nil)
+        ((equal X (car tree)) (list level))
+        (T (append (nodeLevel (cadr tree) (+ level 1) X)
+                   (nodeLevel (caddr tree) (+ level 1) X)
+        ))
+    )
+)
+
+(print (nodeLevel '(a (b (g (h))) (c (d (e) (f)))) 0 'f))
