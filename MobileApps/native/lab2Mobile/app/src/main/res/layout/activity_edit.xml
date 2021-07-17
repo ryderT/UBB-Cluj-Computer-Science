@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5A5A5A"
+    tools:context=".EditActivity">
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="75dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_baseline_save_24"
+        app:layout_constraintEnd_toEndOf="@+id/edit_text_quantity"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_quantity" />
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="306dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:background="#E9DEDE"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text_price"
+        android:layout_width="306dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#E9DEDE"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Price"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/edit_text_name"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_name" />
+
+    <EditText
+        android:id="@+id/edit_text_quantity"
+        android:layout_width="306dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#E9DEDE"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Quantity"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/edit_text_price"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_price" />
+</androidx.constraintlayout.widget.ConstraintLayout>
