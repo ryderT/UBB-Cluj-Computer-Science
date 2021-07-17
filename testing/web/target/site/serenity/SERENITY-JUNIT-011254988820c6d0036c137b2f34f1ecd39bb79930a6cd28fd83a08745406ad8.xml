@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.example.features.search.SearchByKeywordStory" skipped="1" tests="5" time="23.95" timestamp="2021-04-20 03:33:55"><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by keyword car should display the corresponding article"/><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by keyword banana should display the corresponding article"/><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by keyword plane should display the corresponding article"><failure message="&#10;Expected: a collection containing a string containing &quot;A level or flat surface.&quot;&#10;     but: was &quot;Of a surface: flat or level.&quot;" type="java.lang.AssertionError">
+Expected: a collection containing a string containing "A level or flat surface."
+     but: was "Of a surface: flat or level."</failure><system-err>
+Expected: a collection containing a string containing "A level or flat surface."
+     but: was "Of a surface: flat or level."&#13;
+org.example.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:27)&#13;
+org.example.features.search.SearchByKeywordStory.searching_by_keyword_plane_should_display_the_corresponding_article(SearchByKeywordStory.java:49)&#13;
+</system-err></testcase><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by ambiguious keyword should display the disambiguation page"><skipped/></testcase><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by keyword apple should display the corresponding article"/></testsuite>
